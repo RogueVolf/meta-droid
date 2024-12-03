@@ -42,6 +42,17 @@ const Footer = () => (
             Copyright © 2023 - 2024 Perfume Planet. All rights reserved.
           </p>
 
+          <div className="flex gap-4">
+            {socials.map((social) => (
+              <a key={social.name} href={social.link}>
+                <img
+                  src={social.url}
+                  alt={social.name}
+                  className="w-[24px] h-[24px] object-contain"
+                />
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </div>
