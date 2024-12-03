@@ -11,9 +11,6 @@ export {
   Hero,
   About,
   Explore,
-  GetStarted,
   WhatsNew,
-  World,
-  Insights,
   Feedback,
 };

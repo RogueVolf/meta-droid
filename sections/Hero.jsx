@@ -24,13 +24,7 @@ const Hero = () => (
           variants={textVariant(1.2)}
           className="flex flex-row items-center justify-center"
         >
-          <h1 className={styles.heroHeading}> PLA</h1>
-          <div class="w-[100px] h-[200px] flex justify-between items-center">
-            <div class="w-[10px] h-full bg-white"></div>
-            <div class="absolute w-[10px] h-full bg-white transform rotate-[45deg] origin-top-left"></div>
-            <div class="w-[10px] h-full bg-white"></div>
-          </div>
-          <h1 className={styles.heroHeading}> ET</h1>
+          <h1 className={styles.heroHeading}> PLANET</h1>
         </motion.div>
       </div>
 
@@ -40,22 +34,12 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] sm:-top-[20px] -top-[10px]" />
         <img
-          src="/cover.png"
+          src="/cover_1.jpg"
           alt="cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
 
-        <a href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10 2xl:-ml-[100px]">
-            <motion.img
-              src="/stamp.png"
-              alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain "
-              animate={{ rotate: 360 }}
-              transition={{ repeat: Infinity, duration: 7, repeatType: 'loop' }}
-            />
-          </div>
-        </a>
+        
       </motion.div>
     </motion.div>
   </section>

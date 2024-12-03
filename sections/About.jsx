@@ -17,7 +17,7 @@ const About = () => (
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
       <TypingText
-        title="| About Metadroid"
+        title="| About Perfume Planet"
         textStyles="text-center"
       />
 
@@ -25,8 +25,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold"> Metadroid </span> is a new thing in the future, where you can enjoy the virtual world by feeling like it's really real, you can feel what you feel in this metaverse world, because this is really the <span className="font-extrabold">madness of the metaverse</span> of today, using only <span className="font-extrabold">VR</span> devices you can easily explore the metaverse world you want, turn your dreams into reality. Let's <span className="font-extrabold">explore</span> the madness of the metaverse by scrolling down
-      </motion.p>
+        A perfume startup dedicated to redefining the fragrance experience. At <span className="font-extrabold">Perfume Planet</span>, we believe that every person deserves a scent as unique as their story. Whether you're looking for a thoughtful gift, or a creative way to express yourself, Perfume Planet is here to transform the ordinary into something extraordinary.    </motion.p>
 
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
