@@ -1,17 +1,17 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/perfume_1.png',
+    imgUrl: '/Perfume_1.png',
     title: 'The Chemistry',
   },
   {
     id: 'world-2',
-    imgUrl: '/perfume_2.png',
+    imgUrl: '/Perfume_2.png',
     title: 'The Misty',
   },
   {
     id: 'world-3',
-    imgUrl: '/perfume_3.png',
+    imgUrl: '/Perfume_3.png',
     title: 'The Macho',
   }
 ];
