@@ -18,15 +18,19 @@ const Hero = () => (
           variants={textVariant(1.1)}
           className={styles.heroHeading}
         >
-          Metadroid
+          Perfume
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row items-center justify-center"
         >
-          <h1 className={styles.heroHeading}> Ma</h1>
-          <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}> Ness</h1>
+          <h1 className={styles.heroHeading}> PLA</h1>
+          <div class="w-[100px] h-[200px] flex justify-between items-center">
+            <div class="w-[10px] h-full bg-white"></div>
+            <div class="absolute w-[10px] h-full bg-white transform rotate-[45deg] origin-top-left"></div>
+            <div class="w-[10px] h-full bg-white"></div>
+          </div>
+          <h1 className={styles.heroHeading}> ET</h1>
         </motion.div>
       </div>
 
