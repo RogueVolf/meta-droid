@@ -24,16 +24,16 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/perfume_icon.jpg',
+    title: 'Signature Scents',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Create your own signature scent with our curated fragrance kits. Perfect for gifting or indulging in a creative journey, these kits empower you to blend notes that reflect your individuality.',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/discovery_icon.png',
+    title: 'Discovery Workshops',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Explore the art of perfumery with our hands-on workshops. Learn the secrets behind crafting memorable scents and leave with a bespoke creation designed by you.',
   },
 ];
 
